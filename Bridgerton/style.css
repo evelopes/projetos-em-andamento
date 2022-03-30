@@ -1,0 +1,126 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "PT Mono", monospace;
+}
+
+
+
+nav {
+    background-color: rgba(254, 255, 178, 0.8);
+    height: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav a {
+    color: darkslategray;
+    text-decoration: none;
+    padding: 0 1em;
+    font-size: 1.5em;
+}
+nav a:hover {
+    color: white;
+    transition: 1s;
+}
+
+.home {
+  background: rgb(247, 234, 255) url(img/00.jpg) no-repeat top center;
+  background-size: cover;
+}
+
+.trailer{
+    position: fixed;
+    bottom: 15%;
+    left: 35%;
+}
+.video{
+    display: none;
+   position: absolute;
+   bottom: 25%;
+   left: 35%;
+   margin: 0 auto;
+}
+
+.mostrar{
+    display:block;
+    position: absolute;
+    bottom: 25%;
+    left: 35%;
+    margin: 0 auto;
+}
+
+
+.trailer a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 0 1em;
+    font-size: 3em;
+    text-shadow: 2px 2px 1px rgba(247, 250, 69, 0.8);
+}
+
+
+.sobre {
+    background: rgb(247, 234, 255) url(img/sobre.jpg) repeat 50% 10%;
+    background-size: 60%;
+}
+
+.sobre_dados {
+    width: 50%;
+    position: relative;
+    background: rgba(247, 234, 255, 0.5);
+    padding: 2em;
+    border-radius: 15% 7%;
+    top: 80px;
+    left: 25%;
+    font-size: 1.2em;
+}
+
+
+.elenco{
+    background: rgb(245, 248, 58) url(img/elenco.jpg) repeat fixed;
+    background-size: 100%;
+}
+
+.familia{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 1em 0 4em 0;
+}
+
+.pessoa{
+    margin: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pessoa img{
+    border-radius: 50% 50% 0 0;
+    width: 6em;
+    height: 8em;
+    object-fit:cover;
+    overflow: hidden;
+}
+
+.familia h1, h2{
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 1px rgba(247, 250, 69, 0.8);
+    
+}
+
+.trilha{
+    background: rgb(247, 234, 255) url(img/trilha.jpg) 5% 20% fixed;
+    background-size: 105%;
+    
+}
+
+.trilha_sonora{
+    width: 40%;
+    float: right;
+   margin: 8% 8%  0 0;
+    
+}
