@@ -31,33 +31,10 @@ nav a:hover {
 }
 
 .trailer{
-    position: fixed;
-    bottom: 15%;
-    left: 35%;
-}
-.video{
-    display: none;
-   position: absolute;
-   bottom: 25%;
-   left: 35%;
-   margin: 0 auto;
-}
-
-.mostrar{
-    display:block;
     position: absolute;
-    bottom: 25%;
+    top: 50%;
     left: 35%;
-    margin: 0 auto;
-}
-
-
-.trailer a{
-    color: rgb(255, 255, 255);
-    text-decoration: none;
-    padding: 0 1em;
-    font-size: 3em;
-    text-shadow: 2px 2px 1px rgba(247, 250, 69, 0.8);
+    text-align: center;
 }
 
 
